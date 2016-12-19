@@ -1,0 +1,51 @@
+.navbar {
+   background: none;
+}
+
+
+
+ul {
+	float : right;
+}
+
+li {
+	color: white;
+	margin-top: 20px;
+	font-weight: 100;
+	float : right;
+	text-align: left;
+}
+
+.right {
+	float: right;
+	height: 100px;
+}
+
+a {
+	color: white;
+}
+
+.welcome {
+	font-family: 'satisfy', cursive;
+	font-size: 70px;
+	 margin: auto;
+	background: none;
+	color: #ff5733;
+	 position: relative;
+    left: 800px;
+    top: 300px;
+}
+
+h1 .wel{
+	font-family: 'satisfy', cursive;
+	font-size: 70px;
+}
+
+.lao {
+
+	color: white;
+	 position: relative;
+    left: 850px;
+    top: 250px;
+}
+
