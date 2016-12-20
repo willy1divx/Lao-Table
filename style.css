@@ -37,6 +37,9 @@ a {
 	 position: relative;
     left: 500px;
     top: 300px;
+  background: -webkit-linear-gradient(#ffbf80, #804000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1 .wel{
@@ -51,6 +54,12 @@ h1 .wel{
     left: 550px;
     top: 250px;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: transparent;
+}
+.dropdown-menu>li>a:hover {
+	background-color: transparent;
+}
 
 
 
@@ -64,6 +73,9 @@ h1 .wel{
 			 position: relative;
 		    left: 300px;
 		    top: 300px;
+		     background: -webkit-linear-gradient(#ffbf80, #804000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 		}
 
 		h1 .wel{
@@ -90,6 +102,9 @@ h1 .wel{
 			 position: relative;
 		    left: 100px;
 		    top: 300px;
+		     background: -webkit-linear-gradient(#ffbf80, #804000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 		}
 
 		h1 .wel{
