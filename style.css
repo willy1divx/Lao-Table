@@ -5,6 +5,10 @@
    padding: 0px;
 }
 
+.navbar-brand a {
+	margin-left: 10%;
+}
+
 
 
 ul {
@@ -48,7 +52,7 @@ h1 .wel{
 }
 
 .lao {
-
+	letter-spacing: 5px;
 	color: white;
 	 position: relative;
     left: 550px;
@@ -103,8 +107,8 @@ h1 .wel{
 		    left: 100px;
 		    top: 300px;
 		     background: -webkit-linear-gradient(#ffbf80, #804000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+			  -webkit-background-clip: text;
+			  -webkit-text-fill-color: transparent;
 		}
 
 		h1 .wel{
@@ -125,4 +129,30 @@ h1 .wel{
 	.right  {
 		display: none;
 	}
+			    .welcome {
+			font-family: 'satisfy', cursive;
+			font-size: 70px;
+			 margin: auto;
+			background: none;
+			color: #edbb99;
+			 position: relative;
+		    left: 30px;
+		    top: 300px;
+		     background: -webkit-linear-gradient(#ffbf80, #804000);
+			  -webkit-background-clip: text;
+			  -webkit-text-fill-color: transparent;
+		}
+
+		h1 .wel{
+			font-family: 'satisfy', cursive;
+			font-size: 70px;
+		}
+
+		.lao {
+
+			color: white;
+			 position: relative;
+		    left: 80px;
+		    top: 250px;
+		}
 }
