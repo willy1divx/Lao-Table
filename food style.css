@@ -1,0 +1,161 @@
+.navbar {
+   background-color: white;
+   margin: 0px;
+   border: 0px;
+   padding: 0px;
+}
+
+.navbar-brand a {
+	margin-left: 10%;
+}
+
+
+
+ul {
+	float : right;
+}
+
+li {
+	color: black;
+	margin-top: 20px;
+	font-weight: 100;
+	float : left;
+	text-align: left;
+}
+
+.right {
+	float: right;
+	height: 100px;
+}
+
+a {
+	color: white;
+}
+
+.welcome {
+	font-family: 'satisfy', cursive;
+	font-size: 70px;
+	 margin: auto;
+	background: none;
+	color: #edbb99;
+	 position: relative;
+    left: 500px;
+    top: 300px;
+  background: -webkit-linear-gradient(#ffbf80, #804000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+	font-family: 'satisfy', cursive;
+	font-size: 70px;
+	color: black;
+	margin-left: 550px;
+}
+
+p {
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: black;
+	margin-left: 550px;
+	margin-bottom: 100px;
+	 
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: transparent;
+}
+.dropdown-menu>li>a:hover {
+	background-color: transparent;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+		    .welcome {
+			font-family: 'satisfy', cursive;
+			font-size: 70px;
+			 margin: auto;
+			background: none;
+			color: #edbb99;
+			 position: relative;
+		    left: 300px;
+		    top: 300px;
+		     background: -webkit-linear-gradient(#ffbf80, #804000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+		}
+
+		h1 {
+			font-family: 'satisfy', cursive;
+			font-size: 70px;
+		}
+
+		p {
+
+			color: black;
+			 position: relative;
+		    left: 50px;
+		    top: 250px;
+		}
+}
+
+@media only screen and (max-width: 600px) {
+		    .welcome {
+			font-family: 'satisfy', cursive;
+			font-size: 70px;
+			 margin: auto;
+			background: none;
+			color: #edbb99;
+			 position: relative;
+		    left: 100px;
+		    top: 300px;
+		     background: -webkit-linear-gradient(#ffbf80, #804000);
+			  -webkit-background-clip: text;
+			  -webkit-text-fill-color: transparent;
+		}
+
+		h1 .wel{
+			font-family: 'satisfy', cursive;
+			font-size: 70px;
+		}
+
+		.lao {
+
+			color: black;
+			 position: relative;
+		    left: 150px;
+		    top: 250px;
+		}
+}
+
+@media only screen and (max-width: 500px) {
+	.right  {
+		display: none;
+	}
+			    .welcome {
+			font-family: 'satisfy', cursive;
+			font-size: 70px;
+			 margin: auto;
+			background: none;
+			color: #edbb99;
+			 position: relative;
+		    left: 30px;
+		    top: 300px;
+		     background: -webkit-linear-gradient(#ffbf80, #804000);
+			  -webkit-background-clip: text;
+			  -webkit-text-fill-color: transparent;
+		}
+
+		h1 .wel{
+			font-family: 'satisfy', cursive;
+			font-size: 70px;
+		}
+
+		.lao {
+
+			color: black;
+			 position: relative;
+		    left: 80px;
+		    top: 250px;
+		}
+}
